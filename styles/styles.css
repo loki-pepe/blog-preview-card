@@ -21,6 +21,7 @@ html {
 
 body {
     height: 100vh;
+    color: var(--gray-950);
     background-color: var(--yellow);
     font-family: "Figtree", sans-serif;
     font-style: normal;
@@ -52,6 +53,13 @@ main {
 
 section {
     margin: var(--spacing-300) 0;
+}
+
+#topic {
+    width: fit-content;
+    background-color: var(--yellow);
+    padding: 4px 12px;
+    border-radius: 4px;
 }
 
 @media (min-width: 600px) {
