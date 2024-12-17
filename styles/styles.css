@@ -13,6 +13,7 @@ html {
     --gray-950: #111111;
     --gray-500: #6B6B6B;
     --white: #FFF;
+
     --spacing-300: 24px;
     --spacing-150: 12px;
     --spacing-100: 8px;
@@ -29,12 +30,20 @@ html {
     --text-mobile-3-bold: normal 800 12px/150% "Figtree", sans-serif;
 }
 
+address {
+    font: var(--text-3-bold);
+}
+
 body {
     height: 100vh;
     color: var(--gray-950);
     background-color: var(--yellow);
     font-family: "Figtree", sans-serif;
     position: relative;
+}
+
+h1 {
+    font: var(--text-mobile-1);
 }
 
 img[alt="illustration"] {
@@ -59,6 +68,14 @@ main {
     letter-spacing: 0;
 }
 
+p {
+    font: var(--text-mobile-2);
+}
+
+#publish-date {
+    font: var(--text-mobile-3);
+}
+
 section {
     margin: var(--spacing-300) 0;
 }
@@ -72,10 +89,33 @@ section * {
     background-color: var(--yellow);
     padding: var(--spacing-50) var(--spacing-150);
     border-radius: var(--spacing-50);
+    font: var(--text-3-mobile-bold);
 }
 
 @media (min-width: 600px) {
+
+    address {
+        font: var(--text-3-bold);
+    }
+
+    h1 {
+        font: var(--text-1);
+    }
+
     main {
         width: 384px;
     }
+
+    p {
+        font: var(--text-2);
+    }
+    
+    #publish-date {
+        font: var(--text-3);
+    }
+
+    #topic {
+        font: var(--text-3-bold);
+    }
+    
 }
