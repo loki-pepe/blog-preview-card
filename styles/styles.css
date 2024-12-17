@@ -18,3 +18,9 @@ html {
     --spacing-100: 8px;
     --spacing-50: 4px;
 }
+
+body {
+    font-family: "Figtree", sans-serif;
+    line-height: 150%;
+    letter-spacing: 0;
+}
