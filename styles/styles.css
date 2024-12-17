@@ -56,14 +56,14 @@ section {
 }
 
 section * {
-    margin: 12px 0;
+    margin: var(--spacing-150) 0;
 }
 
 #topic {
     width: fit-content;
     background-color: var(--yellow);
-    padding: 4px 12px;
-    border-radius: 4px;
+    padding: var(--spacing-50) var(--spacing-150);
+    border-radius: var(--spacing-50);
 }
 
 @media (min-width: 600px) {
