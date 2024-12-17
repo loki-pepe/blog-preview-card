@@ -45,6 +45,11 @@ h1 {
     font: var(--text-mobile-1);
 }
 
+img[alt="avatar"] {
+    height: 32px;
+    width: 32px;
+}
+
 img[alt="illustration"] {
     display: block;
     height: 200px;
@@ -69,6 +74,7 @@ main {
 
 p {
     font: var(--text-mobile-2);
+    color: var(--gray-500);
 }
 
 #publish-date {
