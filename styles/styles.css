@@ -29,6 +29,7 @@ body {
 }
 
 main {
+    width: 327px;
     background-color: var(--white);
     padding: var(--spacing-300);
     border-radius: 20px;
