@@ -55,6 +55,10 @@ section {
     margin: var(--spacing-300) 0;
 }
 
+section * {
+    margin: 12px 0;
+}
+
 #topic {
     width: fit-content;
     background-color: var(--yellow);
