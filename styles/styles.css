@@ -46,6 +46,11 @@ h1 {
     font: var(--text-mobile-1);
 }
 
+h1:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
 img[alt="avatar"] {
     display: inline-block;
     height: 100%;
