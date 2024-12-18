@@ -30,6 +30,10 @@ html {
     --text-mobile-3-bold: normal 800 12px/150% "Figtree", sans-serif;
 }
 
+address {
+    height: 32px;
+}
+
 body {
     height: 100vh;
     color: var(--gray-950);
@@ -43,8 +47,8 @@ h1 {
 
 img[alt="avatar"] {
     display: inline-block;
-    height: 32px;
-    width: 32px;
+    height: 100%;
+    width: auto;
 }
 
 img[alt="illustration"] {
