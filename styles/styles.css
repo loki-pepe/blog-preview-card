@@ -104,7 +104,7 @@ span {
     background-color: var(--yellow);
     padding: var(--spacing-50) var(--spacing-150);
     border-radius: var(--spacing-50);
-    font: var(--text-3-mobile-bold);
+    font: var(--text-mobile-3-bold);
 }
 
 @media (min-width: 600px) {
