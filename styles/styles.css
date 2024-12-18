@@ -75,9 +75,9 @@ img[alt="illustration"] {
 main {
     width: 327px;
     background-color: var(--white);
-    padding: var(--spacing-300);
+    padding: calc(var(--spacing-300) - 1px);
     border-radius: 20px;
-    outline: 1px solid;
+    border: 1px solid;
     box-shadow: 8px 8px #000;
     position: absolute;
     top: 50%;
