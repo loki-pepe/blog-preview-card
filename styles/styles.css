@@ -30,10 +30,6 @@ html {
     --text-mobile-3-bold: normal 800 12px/150% "Figtree", sans-serif;
 }
 
-address {
-    font: var(--text-3-bold);
-}
-
 body {
     height: 100vh;
     color: var(--gray-950);
@@ -88,6 +84,10 @@ section {
 
 section * {
     margin: var(--spacing-150) 0;
+}
+
+span {
+    font: var(--text-3-bold);
 }
 
 #topic {
