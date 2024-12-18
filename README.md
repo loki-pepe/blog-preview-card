@@ -42,7 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-I acquired a better understanding of how different display properties affect the flow of the page and the positiong of elements. I also learned how to use the `@font-face` rule to host a font.
+I acquired a better understanding of how different display properties affect the flow of the page and the positioning of elements. I also learned how to use the `@font-face` rule to host a font.
 
 ### Continued development
 
