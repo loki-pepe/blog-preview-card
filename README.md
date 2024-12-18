@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL:](https://github.com/loki-pepe/blog-preview-card)
-- [Live Site URL:](https://loki-pepe.github.io/blog-preview-card/)
+- [Solution URL](https://github.com/loki-pepe/blog-preview-card)
+- [Live Site URL](https://loki-pepe.github.io/blog-preview-card/)
 
 ## My process
 
