@@ -99,10 +99,6 @@ section * {
 
 @media (min-width: 600px) {
 
-    address {
-        font: var(--text-3-bold);
-    }
-
     h1 {
         font: var(--text-1);
     }
