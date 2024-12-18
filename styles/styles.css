@@ -32,6 +32,7 @@ html {
 
 address {
     height: 32px;
+    position: relative;
 }
 
 body {
@@ -92,6 +93,10 @@ section * {
 
 span {
     font: var(--text-3-bold);
+    margin-left: var(--spacing-150);
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
 }
 
 #topic {
